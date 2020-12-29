@@ -11,6 +11,14 @@
              -o-background-size: cover;
              background-size: cover;
            }
+           .textoquien {
+             background-color:#E5AC3D;
+             color: white;
+             border-radius: 10px;
+             font-size: 20px;
+             font-family: 'Times New Roman', Times, serif;
+             
+           }
 
 
            .example-marquee {
