@@ -63,11 +63,18 @@
              
              
            }
+           .rrss {
+            position: relative;
+            display: inline-block;
+            float: left;;
+        
+        }
            #menu{
             background-color: #E5AC3D;
             text-align: center;
             padding-top: 0;
             border-radius: 0px 0px 10px 10px;
+            font-family: 'Times New Roman', Times, serif;
         
         }
         
