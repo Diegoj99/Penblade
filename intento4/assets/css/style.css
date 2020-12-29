@@ -265,6 +265,12 @@
             padding-left: 11%;
             
           }
+          .columnna__01 {
+            position: relative;
+            display: inline-block;
+            float: left;;
+        
+        }
           .rrss {
             position: relative;
             display: inline-block;
@@ -448,8 +454,9 @@
           
           #mList {
           width: 100%;
-          font-family: sans-serif;
+          font-family: 'Times New Roman', Times, serif;
           float: none;
+
           }
           
           
