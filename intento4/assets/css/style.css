@@ -12,8 +12,8 @@
              background-size: cover;
            }
            .textoquien {
-             
-             color: rgb(0, 0, 0);
+             background-color:#E5AC3D;
+             color: white;
              border-radius: 10px;
              font-size: 20px;
              font-family: 'Times New Roman', Times, serif;
@@ -71,44 +71,7 @@
             
 
            }
-           .redesi1 {
-             width: 50px;
-             padding:5px;
-             display: inline-block;
-             float: right;
-             position: absolute;
-           }
-           .redesi2 {
-            width: 50px;
-            padding:5px;
-            display: inline-block;
-            float: right;
-            position: absolute;
-          }
-          .redesi3 {
-            width: 50px;
-            padding:5px;
-            display: inline-block;
-            float: right;
-            position: absolute;
-          }
-          .redesi4 {
-            width: 50px;
-            padding:5px;
-            display: inline-block;
-            float: right;
-            position: absolute;
-          }
-          .redesi5 {
-            width: 50px;
-            padding:5px;
-            display: inline-block;
-            float: right;
-            position: absolute;
-          }
-           header {
-
-           }
+ 
            .container { 
              padding-top: 19%;
            }
@@ -254,17 +217,17 @@
             font-family: 'Times New Roman', Times, serif;
             }
 
-           .columna__04 {
-            background-color:  #E5AC3D;
-            text-align: left;
-            color: white;
-            }
-           .columna__05 {
-            background-color:  #E5AC3D;
-            text-align: right;
-            color: white;
-
-           }
+            .columna__04 {
+              background-color:  #E5AC3D;
+              text-align: left;
+              color: white;
+              }
+             .columna__05 {
+              background-color:  #E5AC3D;
+              text-align: right;
+              color: white;
+  
+             }
            .columna__06 {
 
             background-color:  #E5AC3D;
@@ -476,3 +439,74 @@
            .gallery-control:active {
              transform: scale(0.8);
            }
+           #mList {
+            max-width: auto;
+            margin: auto;
+            text-align: center;
+          }
+           @media screen and (orientation: landscape) and (min-width: 801px) {
+          
+          #mList {
+          width: 100%;
+          font-family: sans-serif;
+          float: none;
+          }
+          
+          
+          /* EOF demo */
+          
+          
+          #mList A {
+            margin: 10px;
+            width: 426px;
+            height: 240px;
+            line-height: 50px; /* match height */
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid #000;
+            display: inline-table;
+            position: relative;
+          }
+          
+          /* media list title overlay */
+          
+          
+          #mList A DIV {
+            visibility: visible;
+            background: rgba(0, 0, 0, 0.336);
+          }
+          
+          /* On hover actions */
+          
+          
+          #mList A:hover DIV { visibility: hidden; }
+          
+          #mList A:hover { border: 1px solid #F00; }
+          
+          /* === popup media player === */
+          
+          /* background overlay */
+          
+          #mPlayer {
+            display: none;
+            background: rgba(0, 0, 0, .8);
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 20;
+            left: 0;
+            top: 0;
+          }
+          
+          /* video player */
+          
+          #mPlayer DIV {
+            position: fixed;
+            background: #000;
+            width: 1280px; /* width of YouTube Player */
+            height: 720px; /* height of YouTube Player */
+            left: 16%; /* 280 is .5(560), centers x axis*/
+            top: 16%; /* 157 is .5(315), centers y axis*/
+          }
