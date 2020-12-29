@@ -19,6 +19,14 @@
              
 
            }
+           .isotipotop {
+             width: 10%;
+             position:absolute;s
+           }
+           .banner {
+             position:absolute;
+             width: 100%;
+           }
 
            .content {
              display: table;
@@ -55,19 +63,53 @@
             
 
            }
-           .redesi {
+           .redesi1 {
              width: 50px;
              padding:5px;
              display: inline-block;
              float: right;
-             
-             
+             position: absolute;
+           }
+           .redesi2 {
+            width: 50px;
+            padding:5px;
+            display: inline-block;
+            float: right;
+            position: absolute;
+          }
+          .redesi3 {
+            width: 50px;
+            padding:5px;
+            display: inline-block;
+            float: right;
+            position: absolute;
+          }
+          .redesi4 {
+            width: 50px;
+            padding:5px;
+            display: inline-block;
+            float: right;
+            position: absolute;
+          }
+          .redesi5 {
+            width: 50px;
+            padding:5px;
+            display: inline-block;
+            float: right;
+            position: absolute;
+          }
+           header {
+
+           }
+           .container { 
+             padding-top: 19%;
            }
            #menu{
             background-color: #E5AC3D;
             text-align: center;
             padding-top: 0;
             border-radius: 0px 0px 10px 10px;
+            
         
         }
         
@@ -75,7 +117,8 @@
             list-style: none;
             margin: 0px;
             padding: 0px;
-        
+            font-family: 'Times New Roman', Times, serif;
+            
         
         
         }
@@ -193,6 +236,15 @@
 
 
            }
+           .caras { 
+             width: 50%;
+           }
+           .columna__03 {
+            text-align: left;
+            font-size: 20px;
+            padding-right: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            }
 
            .columna__04 {
             background-color:  #E5AC3D;
@@ -242,6 +294,12 @@
             padding-left: 11%;
             
           }
+          .rrss {
+            position: relative;
+            display: inline-block;
+            float: left;;
+        
+        }
 
            select#selectMe {
              color: rgb(0, 0, 0);
