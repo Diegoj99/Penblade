@@ -195,18 +195,21 @@
            }
 
            .columna__04 {
-             text-align: right;
-           }
+            background-color:  #E5AC3D;
+            text-align: left;
+            color: white;
+            }
            .columna__05 {
             background-color:  #E5AC3D;
             text-align: right;
+            color: white;
 
            }
            .columna__06 {
 
-            float: right;
-            position: relative;
-            text-align: right;
+            background-color:  #E5AC3D;
+            text-align: left;
+            color: white;
           }
           .columna__08 {
             background-color:  #E5AC3D;
